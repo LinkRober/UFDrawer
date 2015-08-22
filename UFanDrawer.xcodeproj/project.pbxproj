@@ -1,0 +1,500 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A3417F51B86F39100CF2913 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3417F41B86F39100CF2913 /* main.m */; };
+		8A3417F81B86F39100CF2913 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3417F71B86F39100CF2913 /* AppDelegate.m */; };
+		8A3417FB1B86F39100CF2913 /* UFanDrawer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8A3417F91B86F39100CF2913 /* UFanDrawer.xcdatamodeld */; };
+		8A3417FE1B86F39100CF2913 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3417FD1B86F39100CF2913 /* MasterViewController.m */; };
+		8A3418011B86F39100CF2913 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3418001B86F39100CF2913 /* DetailViewController.m */; };
+		8A3418041B86F39100CF2913 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A3418021B86F39100CF2913 /* Main.storyboard */; };
+		8A3418061B86F39100CF2913 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A3418051B86F39100CF2913 /* Images.xcassets */; };
+		8A3418091B86F39100CF2913 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8A3418071B86F39100CF2913 /* LaunchScreen.xib */; };
+		8A3418151B86F39100CF2913 /* UFanDrawerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3418141B86F39100CF2913 /* UFanDrawerTests.m */; };
+		8A3418211B87058C00CF2913 /* UFanBasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3418201B87058C00CF2913 /* UFanBasicViewController.m */; };
+		8A3418241B8705A100CF2913 /* UFanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3418231B8705A100CF2913 /* UFanViewController.m */; };
+		8A3418271B870B7E00CF2913 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A3418261B870B7E00CF2913 /* MainViewController.m */; };
+		8A34182D1B870BA000CF2913 /* leftDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A34182C1B870BA000CF2913 /* leftDrawerViewController.m */; };
+		8A3418301B8715D400CF2913 /* UIViewController+UFanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A34182F1B8715D400CF2913 /* UIViewController+UFanViewController.m */; };
+		8A86B11A1B8849A8006DE9EF /* firstItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A86B1191B8849A8006DE9EF /* firstItemViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8A34180F1B86F39100CF2913 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8A3417E71B86F39100CF2913 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8A3417EE1B86F39100CF2913;
+			remoteInfo = UFanDrawer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8A3417EF1B86F39100CF2913 /* UFanDrawer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UFanDrawer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A3417F31B86F39100CF2913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A3417F41B86F39100CF2913 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A3417F61B86F39100CF2913 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A3417F71B86F39100CF2913 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A3417FA1B86F39100CF2913 /* UFanDrawer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UFanDrawer.xcdatamodel; sourceTree = "<group>"; };
+		8A3417FC1B86F39100CF2913 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		8A3417FD1B86F39100CF2913 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		8A3417FF1B86F39100CF2913 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		8A3418001B86F39100CF2913 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		8A3418031B86F39100CF2913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8A3418051B86F39100CF2913 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8A3418081B86F39100CF2913 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8A34180E1B86F39100CF2913 /* UFanDrawerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UFanDrawerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A3418131B86F39100CF2913 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A3418141B86F39100CF2913 /* UFanDrawerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UFanDrawerTests.m; sourceTree = "<group>"; };
+		8A34181F1B87058C00CF2913 /* UFanBasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFanBasicViewController.h; sourceTree = "<group>"; };
+		8A3418201B87058C00CF2913 /* UFanBasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFanBasicViewController.m; sourceTree = "<group>"; };
+		8A3418221B8705A100CF2913 /* UFanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UFanViewController.h; sourceTree = "<group>"; };
+		8A3418231B8705A100CF2913 /* UFanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UFanViewController.m; sourceTree = "<group>"; };
+		8A3418251B870B7E00CF2913 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		8A3418261B870B7E00CF2913 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		8A34182B1B870BA000CF2913 /* leftDrawerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = leftDrawerViewController.h; sourceTree = "<group>"; };
+		8A34182C1B870BA000CF2913 /* leftDrawerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = leftDrawerViewController.m; sourceTree = "<group>"; };
+		8A34182E1B8715D400CF2913 /* UIViewController+UFanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+UFanViewController.h"; sourceTree = "<group>"; };
+		8A34182F1B8715D400CF2913 /* UIViewController+UFanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+UFanViewController.m"; sourceTree = "<group>"; };
+		8A86B1181B8849A8006DE9EF /* firstItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = firstItemViewController.h; sourceTree = "<group>"; };
+		8A86B1191B8849A8006DE9EF /* firstItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = firstItemViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A3417EC1B86F39100CF2913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A34180B1B86F39100CF2913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A3417E61B86F39100CF2913 = {
+			isa = PBXGroup;
+			children = (
+				8A3417F11B86F39100CF2913 /* UFanDrawer */,
+				8A3418111B86F39100CF2913 /* UFanDrawerTests */,
+				8A3417F01B86F39100CF2913 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A3417F01B86F39100CF2913 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A3417EF1B86F39100CF2913 /* UFanDrawer.app */,
+				8A34180E1B86F39100CF2913 /* UFanDrawerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A3417F11B86F39100CF2913 /* UFanDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				8A34181E1B86F3D700CF2913 /* Drawer */,
+				8A3417F61B86F39100CF2913 /* AppDelegate.h */,
+				8A3417F71B86F39100CF2913 /* AppDelegate.m */,
+				8A3417FC1B86F39100CF2913 /* MasterViewController.h */,
+				8A3417FD1B86F39100CF2913 /* MasterViewController.m */,
+				8A3417FF1B86F39100CF2913 /* DetailViewController.h */,
+				8A3418001B86F39100CF2913 /* DetailViewController.m */,
+				8A3418021B86F39100CF2913 /* Main.storyboard */,
+				8A3418051B86F39100CF2913 /* Images.xcassets */,
+				8A3418071B86F39100CF2913 /* LaunchScreen.xib */,
+				8A3417F91B86F39100CF2913 /* UFanDrawer.xcdatamodeld */,
+				8A3417F21B86F39100CF2913 /* Supporting Files */,
+				8A3418251B870B7E00CF2913 /* MainViewController.h */,
+				8A3418261B870B7E00CF2913 /* MainViewController.m */,
+				8A34182B1B870BA000CF2913 /* leftDrawerViewController.h */,
+				8A34182C1B870BA000CF2913 /* leftDrawerViewController.m */,
+				8A86B1181B8849A8006DE9EF /* firstItemViewController.h */,
+				8A86B1191B8849A8006DE9EF /* firstItemViewController.m */,
+			);
+			path = UFanDrawer;
+			sourceTree = "<group>";
+		};
+		8A3417F21B86F39100CF2913 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A3417F31B86F39100CF2913 /* Info.plist */,
+				8A3417F41B86F39100CF2913 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A3418111B86F39100CF2913 /* UFanDrawerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8A3418141B86F39100CF2913 /* UFanDrawerTests.m */,
+				8A3418121B86F39100CF2913 /* Supporting Files */,
+			);
+			path = UFanDrawerTests;
+			sourceTree = "<group>";
+		};
+		8A3418121B86F39100CF2913 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A3418131B86F39100CF2913 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8A34181E1B86F3D700CF2913 /* Drawer */ = {
+			isa = PBXGroup;
+			children = (
+				8A34181F1B87058C00CF2913 /* UFanBasicViewController.h */,
+				8A3418201B87058C00CF2913 /* UFanBasicViewController.m */,
+				8A3418221B8705A100CF2913 /* UFanViewController.h */,
+				8A3418231B8705A100CF2913 /* UFanViewController.m */,
+				8A34182E1B8715D400CF2913 /* UIViewController+UFanViewController.h */,
+				8A34182F1B8715D400CF2913 /* UIViewController+UFanViewController.m */,
+			);
+			path = Drawer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A3417EE1B86F39100CF2913 /* UFanDrawer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A3418181B86F39100CF2913 /* Build configuration list for PBXNativeTarget "UFanDrawer" */;
+			buildPhases = (
+				8A3417EB1B86F39100CF2913 /* Sources */,
+				8A3417EC1B86F39100CF2913 /* Frameworks */,
+				8A3417ED1B86F39100CF2913 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UFanDrawer;
+			productName = UFanDrawer;
+			productReference = 8A3417EF1B86F39100CF2913 /* UFanDrawer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8A34180D1B86F39100CF2913 /* UFanDrawerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A34181B1B86F39200CF2913 /* Build configuration list for PBXNativeTarget "UFanDrawerTests" */;
+			buildPhases = (
+				8A34180A1B86F39100CF2913 /* Sources */,
+				8A34180B1B86F39100CF2913 /* Frameworks */,
+				8A34180C1B86F39100CF2913 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8A3418101B86F39100CF2913 /* PBXTargetDependency */,
+			);
+			name = UFanDrawerTests;
+			productName = UFanDrawerTests;
+			productReference = 8A34180E1B86F39100CF2913 /* UFanDrawerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A3417E71B86F39100CF2913 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "夏敏";
+				TargetAttributes = {
+					8A3417EE1B86F39100CF2913 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8A34180D1B86F39100CF2913 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8A3417EE1B86F39100CF2913;
+					};
+				};
+			};
+			buildConfigurationList = 8A3417EA1B86F39100CF2913 /* Build configuration list for PBXProject "UFanDrawer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A3417E61B86F39100CF2913;
+			productRefGroup = 8A3417F01B86F39100CF2913 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A3417EE1B86F39100CF2913 /* UFanDrawer */,
+				8A34180D1B86F39100CF2913 /* UFanDrawerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A3417ED1B86F39100CF2913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3418041B86F39100CF2913 /* Main.storyboard in Resources */,
+				8A3418091B86F39100CF2913 /* LaunchScreen.xib in Resources */,
+				8A3418061B86F39100CF2913 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A34180C1B86F39100CF2913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A3417EB1B86F39100CF2913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3418011B86F39100CF2913 /* DetailViewController.m in Sources */,
+				8A3417FE1B86F39100CF2913 /* MasterViewController.m in Sources */,
+				8A3417F81B86F39100CF2913 /* AppDelegate.m in Sources */,
+				8A3418271B870B7E00CF2913 /* MainViewController.m in Sources */,
+				8A3417F51B86F39100CF2913 /* main.m in Sources */,
+				8A3417FB1B86F39100CF2913 /* UFanDrawer.xcdatamodeld in Sources */,
+				8A34182D1B870BA000CF2913 /* leftDrawerViewController.m in Sources */,
+				8A3418211B87058C00CF2913 /* UFanBasicViewController.m in Sources */,
+				8A3418241B8705A100CF2913 /* UFanViewController.m in Sources */,
+				8A3418301B8715D400CF2913 /* UIViewController+UFanViewController.m in Sources */,
+				8A86B11A1B8849A8006DE9EF /* firstItemViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A34180A1B86F39100CF2913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A3418151B86F39100CF2913 /* UFanDrawerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8A3418101B86F39100CF2913 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8A3417EE1B86F39100CF2913 /* UFanDrawer */;
+			targetProxy = 8A34180F1B86F39100CF2913 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8A3418021B86F39100CF2913 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A3418031B86F39100CF2913 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8A3418071B86F39100CF2913 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A3418081B86F39100CF2913 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A3418161B86F39100CF2913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A3418171B86F39100CF2913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A3418191B86F39100CF2913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UFanDrawer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A34181A1B86F39100CF2913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = UFanDrawer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8A34181C1B86F39200CF2913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UFanDrawerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UFanDrawer.app/UFanDrawer";
+			};
+			name = Debug;
+		};
+		8A34181D1B86F39200CF2913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = UFanDrawerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UFanDrawer.app/UFanDrawer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A3417EA1B86F39100CF2913 /* Build configuration list for PBXProject "UFanDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3418161B86F39100CF2913 /* Debug */,
+				8A3418171B86F39100CF2913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A3418181B86F39100CF2913 /* Build configuration list for PBXNativeTarget "UFanDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A3418191B86F39100CF2913 /* Debug */,
+				8A34181A1B86F39100CF2913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A34181B1B86F39200CF2913 /* Build configuration list for PBXNativeTarget "UFanDrawerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A34181C1B86F39200CF2913 /* Debug */,
+				8A34181D1B86F39200CF2913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8A3417F91B86F39100CF2913 /* UFanDrawer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8A3417FA1B86F39100CF2913 /* UFanDrawer.xcdatamodel */,
+			);
+			currentVersion = 8A3417FA1B86F39100CF2913 /* UFanDrawer.xcdatamodel */;
+			path = UFanDrawer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8A3417E71B86F39100CF2913 /* Project object */;
+}
